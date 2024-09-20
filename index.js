@@ -42,7 +42,7 @@ const calculations = {
         "pounds"
     ]
 };
-unction calculate() {
+function calculate() {
     const calculationKeys = ["length", "volume", "mass"];
     let conversionsHTML = ""
     for (let i = 0; i < calculationKeys.length; i++) {

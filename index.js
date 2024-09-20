@@ -42,7 +42,7 @@ const calculations = {
         "pounds"
     ]
 };
-function calculate() {
+const calculate = function() {
     const calculationKeys = ["length", "volume", "mass"];
     let conversionsHTML = ""
     for (let i = 0; i < calculationKeys.length; i++) {
@@ -55,3 +55,5 @@ function calculate() {
     conversionsEl.innerHTML = conversionsHTML;
     
 }
+
+window.calculate = calculate;
